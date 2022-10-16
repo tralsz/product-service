@@ -5,7 +5,8 @@ using Microsoft.IdentityModel.Tokens;
 using product_service.config;
 using System.Text;
 using Microsoft.Extensions.Configuration;
-
+var url = Environment.GetEnvironmentVariable("FRONT_END_URL");
+Console.Write(url);
 var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,7 +16,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy(name: MyAllowSpecificOrigins,
                       policy =>
                       {
-                          policy.WithOrigins("https://front-end-hw001.herokuapp.com" ).AllowAnyHeader().AllowAnyMethod();
+                          policy.WithOrigins(url).AllowAnyHeader().AllowAnyMethod();
                       });
 });
 
