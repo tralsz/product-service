@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BipSw/qHl60FJSWUpcc7jpkmNL7jliLghr8LuY4vMA0EUk+Ksk8KwW2oPk7nl/Fp2EvZ3kktDGT8lJTyeCjeAw==",
+  "dgSpecHash": "t/SBKx6v99pSQIAXiVqkrJqAdT9vYROhi4Cwh67VancQEQXU/PcRz6INQPAXmChhBjqnPfMCLJ5jkAH3xMnvXw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aturk\\OneDrive - STC Channels\\HW\\product-service\\product-service.csproj",
+  "projectFilePath": "F:\\personalProjects\\hw\\product-service\\product-service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aturk\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\aturk\\.nuget\\packages\\google.protobuf\\3.19.4\\google.protobuf.3.19.4.nupkg.sha512",
@@ -21,7 +21,9 @@
     "C:\\Users\\aturk\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\aturk\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\aturk\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.1\\microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
+    "C:\\Users\\aturk\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.0\\microsoft.extensions.configuration.6.0.0.nupkg.sha512",
     "C:\\Users\\aturk\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\aturk\\.nuget\\packages\\microsoft.extensions.configuration.commandline\\6.0.0\\microsoft.extensions.configuration.commandline.6.0.0.nupkg.sha512",
     "C:\\Users\\aturk\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.1\\microsoft.extensions.dependencyinjection.6.0.1.nupkg.sha512",
     "C:\\Users\\aturk\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\aturk\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\microsoft.extensions.logging.6.0.0.nupkg.sha512",

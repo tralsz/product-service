@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aturk\\OneDrive - STC Channels\\HW\\product-service\\product-service.csproj": {}
+    "F:\\personalProjects\\hw\\product-service\\product-service.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aturk\\OneDrive - STC Channels\\HW\\product-service\\product-service.csproj": {
+    "F:\\personalProjects\\hw\\product-service\\product-service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aturk\\OneDrive - STC Channels\\HW\\product-service\\product-service.csproj",
+        "projectUniqueName": "F:\\personalProjects\\hw\\product-service\\product-service.csproj",
         "projectName": "product-service",
-        "projectPath": "C:\\Users\\aturk\\OneDrive - STC Channels\\HW\\product-service\\product-service.csproj",
+        "projectPath": "F:\\personalProjects\\hw\\product-service\\product-service.csproj",
         "packagesPath": "C:\\Users\\aturk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aturk\\OneDrive - STC Channels\\HW\\product-service\\obj\\",
+        "outputPath": "F:\\personalProjects\\hw\\product-service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\aturk\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,6 +53,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.10, )"
+            },
+            "Microsoft.Extensions.Configuration.CommandLine": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             },
             "MySql.Data.EntityFramework": {
               "target": "Package",
