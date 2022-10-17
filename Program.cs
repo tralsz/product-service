@@ -6,7 +6,11 @@ using product_service.config;
 using System.Text;
 using Microsoft.Extensions.Configuration;
 var url = Environment.GetEnvironmentVariable("FRONT_END_URL");
-Console.Write(url);
+if(url == null)
+{
+    url = "http://localhost:4200";
+}
+
 var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 var builder = WebApplication.CreateBuilder(args);
 
