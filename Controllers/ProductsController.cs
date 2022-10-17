@@ -102,27 +102,28 @@ namespace product_service.Controllers
             return Ok("Product Saved with id " + _products.id  );
         }
 
-        //[HttpDelete("delete/{id:int}")]
-        //public async Task<IActionResult> deleteProductById(int id)
-        //{
-        //    try
-        //    {
-        //        _DBContext.Remove(new products() { id = id });
-        //        await _DBContext.SaveChangesAsync();
-        //    }catch(Exception ex)
-        //    {
-        //        if (!_DBContext.products.Any(x => x.id == id))
-        //        {
-        //            return NotFound("Product with Id " + id + " Not Found");
-        //        }
-        //        else
-        //        {
-        //            throw ex;
-        //        }
-        //    }
-        //    return Ok("Product Deleted");
-            
-        //}
+        [HttpDelete("delete/{id:int}")]
+        public async Task<IActionResult> deleteProductById(int id)
+        {
+            try
+            {
+                _DBContext.Remove(new products() { id = id });
+                await _DBContext.SaveChangesAsync();
+            }
+            catch (Exception ex)
+            {
+                if (!_DBContext.products.Any(x => x.id == id))
+                {
+                    return NotFound("Product with Id " + id + " Not Found");
+                }
+                else
+                {
+                    throw ex;
+                }
+            }
+            return Ok("Product Deleted");
+
+        }
 
     }
 }
